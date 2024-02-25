@@ -13,11 +13,16 @@ public class Plugin(ILogger<Plugin> logger) : IPlugin
     
     public void Load()
     {
-        logger.LogDebug("LOADED");
+        logger.LogDebug("World implementation loaded");
     }
 
     public void Enable()
     {
-        logger.LogDebug("");
+        logger.LogDebug("World implementation enabled");
+    }
+
+    ~Plugin()
+    {
+        logger.LogDebug("World implementation disabled");
     }
 }
