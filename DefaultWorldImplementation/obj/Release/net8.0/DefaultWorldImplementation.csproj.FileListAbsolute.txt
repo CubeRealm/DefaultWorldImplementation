@@ -1,0 +1,17 @@
+/home/systemdev/RiderProjects/DefaultWorldImplementation/DefaultWorldImplementation/bin/Release/net8.0/DefaultWorldImplementation.deps.json
+/home/systemdev/RiderProjects/DefaultWorldImplementation/DefaultWorldImplementation/bin/Release/net8.0/DefaultWorldImplementation.dll
+/home/systemdev/RiderProjects/DefaultWorldImplementation/DefaultWorldImplementation/bin/Release/net8.0/DefaultWorldImplementation.pdb
+/home/systemdev/RiderProjects/DefaultWorldImplementation/DefaultWorldImplementation/bin/Release/net8.0/Plugin.API.dll
+/home/systemdev/RiderProjects/DefaultWorldImplementation/DefaultWorldImplementation/bin/Release/net8.0/World.API.dll
+/home/systemdev/RiderProjects/DefaultWorldImplementation/DefaultWorldImplementation/bin/Release/net8.0/Plugin.API.pdb
+/home/systemdev/RiderProjects/DefaultWorldImplementation/DefaultWorldImplementation/bin/Release/net8.0/World.API.pdb
+/home/systemdev/RiderProjects/DefaultWorldImplementation/DefaultWorldImplementation/obj/Release/net8.0/DefaultWorldImplementation.csproj.AssemblyReference.cache
+/home/systemdev/RiderProjects/DefaultWorldImplementation/DefaultWorldImplementation/obj/Release/net8.0/DefaultWorldImplementation.GeneratedMSBuildEditorConfig.editorconfig
+/home/systemdev/RiderProjects/DefaultWorldImplementation/DefaultWorldImplementation/obj/Release/net8.0/DefaultWorldImplementation.AssemblyInfoInputs.cache
+/home/systemdev/RiderProjects/DefaultWorldImplementation/DefaultWorldImplementation/obj/Release/net8.0/DefaultWorldImplementation.AssemblyInfo.cs
+/home/systemdev/RiderProjects/DefaultWorldImplementation/DefaultWorldImplementation/obj/Release/net8.0/DefaultWorldImplementation.csproj.CoreCompileInputs.cache
+/home/systemdev/RiderProjects/DefaultWorldImplementation/DefaultWorldImplementation/obj/Release/net8.0/DefaultWorldImplementation.csproj.CopyComplete
+/home/systemdev/RiderProjects/DefaultWorldImplementation/DefaultWorldImplementation/obj/Release/net8.0/DefaultWorldImplementation.dll
+/home/systemdev/RiderProjects/DefaultWorldImplementation/DefaultWorldImplementation/obj/Release/net8.0/refint/DefaultWorldImplementation.dll
+/home/systemdev/RiderProjects/DefaultWorldImplementation/DefaultWorldImplementation/obj/Release/net8.0/DefaultWorldImplementation.pdb
+/home/systemdev/RiderProjects/DefaultWorldImplementation/DefaultWorldImplementation/obj/Release/net8.0/ref/DefaultWorldImplementation.dll
