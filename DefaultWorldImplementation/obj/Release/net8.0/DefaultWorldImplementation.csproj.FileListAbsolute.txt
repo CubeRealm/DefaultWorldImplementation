@@ -15,3 +15,10 @@
 /home/systemdev/RiderProjects/DefaultWorldImplementation/DefaultWorldImplementation/obj/Release/net8.0/refint/DefaultWorldImplementation.dll
 /home/systemdev/RiderProjects/DefaultWorldImplementation/DefaultWorldImplementation/obj/Release/net8.0/DefaultWorldImplementation.pdb
 /home/systemdev/RiderProjects/DefaultWorldImplementation/DefaultWorldImplementation/obj/Release/net8.0/ref/DefaultWorldImplementation.dll
+/home/systemdev/RiderProjects/DefaultWorldImplementation/DefaultWorldImplementation/obj/Release/net8.0/DefaultWorldImplementation.sourcelink.json
+/home/systemdev/RiderProjects/DefaultWorldImplementation/DefaultWorldImplementation/bin/Release/net8.0/CubeRealm.Network.Version765.dll
+/home/systemdev/RiderProjects/DefaultWorldImplementation/DefaultWorldImplementation/bin/Release/net8.0/MathHelper.dll
+/home/systemdev/RiderProjects/DefaultWorldImplementation/DefaultWorldImplementation/bin/Release/net8.0/CubeRealm.Network.Base.API.dll
+/home/systemdev/RiderProjects/DefaultWorldImplementation/DefaultWorldImplementation/bin/Release/net8.0/CubeRealm.Network.Version765.pdb
+/home/systemdev/RiderProjects/DefaultWorldImplementation/DefaultWorldImplementation/bin/Release/net8.0/MathHelper.pdb
+/home/systemdev/RiderProjects/DefaultWorldImplementation/DefaultWorldImplementation/bin/Release/net8.0/CubeRealm.Network.Base.API.pdb

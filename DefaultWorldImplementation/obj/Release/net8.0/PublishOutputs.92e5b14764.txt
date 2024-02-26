@@ -7,7 +7,13 @@
 /home/systemdev/RiderProjects/DefaultWorldImplementation/DefaultWorldImplementation/bin/Release/net8.0/publish/Microsoft.Extensions.Logging.Abstractions.dll
 /home/systemdev/RiderProjects/DefaultWorldImplementation/DefaultWorldImplementation/bin/Release/net8.0/publish/Microsoft.Extensions.Options.dll
 /home/systemdev/RiderProjects/DefaultWorldImplementation/DefaultWorldImplementation/bin/Release/net8.0/publish/Microsoft.Extensions.Primitives.dll
+/home/systemdev/RiderProjects/DefaultWorldImplementation/DefaultWorldImplementation/bin/Release/net8.0/publish/CubeRealm.Network.Version765.dll
+/home/systemdev/RiderProjects/DefaultWorldImplementation/DefaultWorldImplementation/bin/Release/net8.0/publish/MathHelper.dll
 /home/systemdev/RiderProjects/DefaultWorldImplementation/DefaultWorldImplementation/bin/Release/net8.0/publish/Plugin.API.dll
 /home/systemdev/RiderProjects/DefaultWorldImplementation/DefaultWorldImplementation/bin/Release/net8.0/publish/World.API.dll
+/home/systemdev/RiderProjects/DefaultWorldImplementation/DefaultWorldImplementation/bin/Release/net8.0/publish/CubeRealm.Network.Base.API.dll
+/home/systemdev/RiderProjects/DefaultWorldImplementation/DefaultWorldImplementation/bin/Release/net8.0/publish/CubeRealm.Network.Version765.pdb
+/home/systemdev/RiderProjects/DefaultWorldImplementation/DefaultWorldImplementation/bin/Release/net8.0/publish/MathHelper.pdb
 /home/systemdev/RiderProjects/DefaultWorldImplementation/DefaultWorldImplementation/bin/Release/net8.0/publish/Plugin.API.pdb
 /home/systemdev/RiderProjects/DefaultWorldImplementation/DefaultWorldImplementation/bin/Release/net8.0/publish/World.API.pdb
+/home/systemdev/RiderProjects/DefaultWorldImplementation/DefaultWorldImplementation/bin/Release/net8.0/publish/CubeRealm.Network.Base.API.pdb

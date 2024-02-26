@@ -9,6 +9,8 @@
       "DefaultWorldImplementation/1.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Logging": "8.0.0",
+          "CubeRealm.Network.Version765": "1.0.0.0",
+          "MathHelper": "1.0.0.0",
           "Plugin.API": "1.0.0.0",
           "World.API": "1.0.0.0"
         },
@@ -79,6 +81,22 @@
           }
         }
       },
+      "CubeRealm.Network.Version765/1.0.0.0": {
+        "runtime": {
+          "CubeRealm.Network.Version765.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "MathHelper/1.0.0.0": {
+        "runtime": {
+          "MathHelper.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "Plugin.API/1.0.0.0": {
         "runtime": {
           "Plugin.API.dll": {
@@ -90,14 +108,6 @@
       "World.API/1.0.0.0": {
         "runtime": {
           "World.API.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "CubeRealm.Network.Version765/1.0.0.0": {
-        "runtime": {
-          "CubeRealm.Network.Version765.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -161,17 +171,22 @@
       "path": "microsoft.extensions.primitives/8.0.0",
       "hashPath": "microsoft.extensions.primitives.8.0.0.nupkg.sha512"
     },
+    "CubeRealm.Network.Version765/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MathHelper/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Plugin.API/1.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
     "World.API/1.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "CubeRealm.Network.Version765/1.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
