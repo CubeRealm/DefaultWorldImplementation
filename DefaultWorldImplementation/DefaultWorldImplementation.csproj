@@ -10,6 +10,9 @@
       <Reference Include="CubeRealm.Network.Version765">
         <HintPath>..\..\CubeRealmServer\World.API\bin\Debug\net8.0\CubeRealm.Network.Version765.dll</HintPath>
       </Reference>
+      <Reference Include="MathHelper">
+        <HintPath>..\..\PerlinNoiseGenerator\MathHelper\bin\Release\net8.0\MathHelper.dll</HintPath>
+      </Reference>
       <Reference Include="Plugin.API">
         <HintPath>..\..\CubeRealmServer\CubeRealmServer.API\bin\Debug\net8.0\Plugin.API.dll</HintPath>
       </Reference>

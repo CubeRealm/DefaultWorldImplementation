@@ -1,3 +1,4 @@
+using NoiseGenerator.Graphs;
 using World.API.Block.Implementation;
 using World.API.Chunk;
 using World.API.Coords;
@@ -8,14 +9,27 @@ namespace DefaultWorldImplementation.World;
 
 public class DefaultWorldGenerator : IWorldGenerator
 {
+
+    private SinCosGraph SinCosGraph;
+    
+    public DefaultWorldGenerator(long seed)
+    {
+        Seed = seed;
+        SinCosGraph = new SinCosGraph();
+    }
+    
     public IChunk GenerateChunkData(ref IChunk chunk)
     {
 
-        for (int x = 0; x < 16; x++)
+        for (int localX = 0; localX < 16; localX++)
         {
-            for (int z = 0; z < 16; z++)
+            for (int localZ = 0; localZ < 16; localZ++)
             {
-                Location location = new Location(x, 60, z);
+                int globalX = chunk.Location.X + localX;
+                int globalZ = chunk.Location.Z + localZ;
+
+                Location location = new Location(globalX, SinCosGraph.At(globalX, globalZ), globalZ);
+
                 chunk.SetBlock(new SimpleBlock(Material.STONE, location), location);
             }
         }
