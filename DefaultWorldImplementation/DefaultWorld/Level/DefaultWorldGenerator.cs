@@ -1,15 +1,17 @@
 using NoiseGenerator.Graphs;
+using World.API;
 using World.API.Block.Implementation;
 using World.API.Chunk;
 using World.API.Coords;
 using World.API.Data;
 using World.API.World;
 
-namespace DefaultWorldImplementation.World;
+namespace DefaultWorldImplementation.DefaultWorld.Level;
 
-public class DefaultWorldGenerator : IWorldGenerator
+public class DefaultWorldGenerator : ILevelGenerator
 {
-
+    public long Seed { get; set; }
+    
     private SinCosGraph SinCosGraph;
     
     public DefaultWorldGenerator(long seed)
@@ -18,9 +20,9 @@ public class DefaultWorldGenerator : IWorldGenerator
         SinCosGraph = new SinCosGraph();
     }
     
+    
     public IChunk GenerateChunkData(ref IChunk chunk)
     {
-
         for (int localX = 0; localX < 16; localX++)
         {
             for (int localZ = 0; localZ < 16; localZ++)
@@ -36,6 +38,4 @@ public class DefaultWorldGenerator : IWorldGenerator
         
         return chunk;
     }
-
-    public long Seed { get; set; }
 }

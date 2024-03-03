@@ -1,27 +1,25 @@
 using World.API.Block;
-using World.API.Block.Implementation;
 using World.API.Chunk;
 using World.API.Coords;
-using World.API.Data;
 using World.API.Item;
 
-namespace DefaultWorldImplementation.World.Chunk;
+namespace DefaultWorldImplementation.DefaultWorld.Chunk;
 
 public class DefaultChunk : IChunk
 {
     public void SetBlock(IBlock block, Location location)
     {
-        ChunkData[location.BlockX, location.BlockY, location.BlockZ] = block;
+        throw new NotImplementedException();
     }
 
     public void SetBlock(IItem block, Location location)
     {
-        SetBlock(block.PlaceableBlock, location);
+        throw new NotImplementedException();
     }
 
     public void RemoveBlock(Location location)
     {
-        SetBlock(new SimpleBlock(Material.AIR, location), location);
+        throw new NotImplementedException();
     }
 
     public IBlock[,,] ChunkData { get; set; }

@@ -1,18 +1,16 @@
-using DefaultWorldImplementation.World.Chunk;
 using World.API.Block;
 using World.API.Chunk;
 using World.API.Coords;
 using World.API.Item;
 using World.API.World;
 
-namespace DefaultWorldImplementation.World;
+namespace DefaultWorldImplementation.DefaultWorld.Level;
 
-public class DefaultWorld : IWorld
+public class DefaultLevel : ILevel
 {
     public void GenerateChunk(ChunkLocation location)
     {
-        IChunk chunk = new DefaultChunk();
-        Generator.GenerateChunkData(ref chunk);
+        throw new NotImplementedException();
     }
 
     public void SetBlock(IBlock block, Location location)
@@ -31,6 +29,5 @@ public class DefaultWorld : IWorld
     }
 
     public IChunk[,] Chunks { get; set; }
-    public string WorldName { get; set; }
-    public IWorldGenerator Generator { get; set; }
+    public ILevelGenerator Generator { get; set; }
 }

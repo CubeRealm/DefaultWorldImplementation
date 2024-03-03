@@ -25,7 +25,6 @@ public class DefaultWorldImplementation(ILogger<DefaultWorldImplementation> logg
     {
         logger.LogDebug("World implementation enabled");
         logger.LogDebug("Checking API...");
-        logger.LogDebug((new SinCosGraph()).At(10, 10).ToString());
     }
 
     ~DefaultWorldImplementation()
